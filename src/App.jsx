@@ -102,6 +102,14 @@ function App() {
               <div className="recommendation-text">Quantify your impact in your work experience</div>
             </div>
             
+            <div className="recommendation-item premium-item" style={{borderLeft: '4px solid #4f46e5'}}>
+              <span className="recommendation-icon" style={{color: '#4f46e5'}}>⭐</span>
+              <div className="recommendation-text">
+                <div>Advanced phrasing suggestions for your achievements</div>
+                <div className="premium-tag">Premium Feature</div>
+              </div>
+            </div>
+            
             <div className="recommendation-item" style={{borderLeft: '4px solid #ef4444'}}>
               <span className="recommendation-icon" style={{color: '#ef4444'}}>✗</span>
               <div className="recommendation-text">Remove outdated skills: "jQuery"</div>
@@ -126,6 +134,17 @@ function App() {
           <button className="download-btn">
             <span>⬇️</span> Download Optimized Document
           </button>
+
+          <div className="premium-features">
+            <h3 className="premium-features-title">Premium Features Available</h3>
+            <ul className="premium-features-list">
+              <li>✨ Industry-specific phrasing tailored to job descriptions</li>
+              <li>✨ Unlimited optimizations (vs. 5/month on free plan)</li>
+              <li>✨ Cover letter customization for each application</li>
+              <li>✨ Advanced ATS scoring with detailed feedback</li>
+            </ul>
+            <button className="premium-cta-btn">Get Premium for $14.99/month</button>
+          </div>
         </div>
       </main>
 
@@ -134,37 +153,41 @@ function App() {
           <div className="feature-icon" style={{backgroundColor: 'rgba(16, 185, 129, 0.1)', color: '#10b981'}}>✓</div>
           <h3 className="feature-title">ATS Optimization</h3>
           <p className="feature-desc">Your resume is now optimized for automated screening systems with 87% compatibility</p>
+          <div className="feature-plan">Available in Free Plan</div>
         </div>
         
-        <div className="feature-card">
+        <div className="feature-card premium-card">
           <div className="feature-icon" style={{backgroundColor: 'rgba(79, 70, 229, 0.1)'}}>🔍</div>
-          <h3 className="feature-title">Keyword Matching</h3>
+          <h3 className="feature-title">Keyword Matching <span className="premium-pill">Premium</span></h3>
           <p className="feature-desc">Added 6 relevant keywords from the job description to improve visibility</p>
+          <div className="feature-plan premium-plan">Premium Feature</div>
         </div>
         
-        <div className="feature-card">
+        <div className="feature-card premium-card">
           <div className="feature-icon" style={{backgroundColor: 'rgba(245, 158, 11, 0.1)', color: '#f59e0b'}}>📝</div>
-          <h3 className="feature-title">Cover Letter Assistant</h3>
+          <h3 className="feature-title">Cover Letter Assistant <span className="premium-pill">Premium</span></h3>
           <p className="feature-desc">Customized cover letter ready for review with personalized content</p>
+          <div className="feature-plan premium-plan">Premium Feature</div>
         </div>
         
         <div className="feature-card">
           <div className="feature-icon" style={{backgroundColor: 'rgba(239, 68, 68, 0.1)', color: '#ef4444'}}>📊</div>
           <h3 className="feature-title">Job Match Score</h3>
           <p className="feature-desc">85% match to this position based on your qualifications and experience</p>
+          <div className="feature-plan">Available in Free Plan</div>
         </div>
       </section>
 
       <footer className="usage-footer">
         <div className="usage-stats">
-          <span>3/5 free optimizations remaining this month</span>
+          <span><b>Free Plan:</b> 3/5 optimizations remaining this month</span>
           <div className="usage-meter">
             <div className="usage-meter-fill"></div>
           </div>
         </div>
         
         <div className="upgrade-prompt">
-          <span>Need more optimizations?</span>
+          <span>Want unlimited optimizations & full features?</span>
           <a href="#" className="pulse">Unlock Premium</a>
         </div>
       </footer>
