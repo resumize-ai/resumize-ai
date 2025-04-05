@@ -9,7 +9,7 @@ function App() {
     <div className="App">
       <header className="header">
         <div className="logo-container">
-          <img src="/resumize-favicon.png" alt="Resumize Logo" width="50" height="auto" style={{objectFit: 'contain'}} />
+          <img src="/resumize-logo.png" alt="Resumize Logo" width="50" height="auto" style={{objectFit: 'contain'}} />
           <div>
             <div className="logo">Resumize<span>.</span></div>
             <div className="tagline">Stand Out. Get Hired.</div>
@@ -24,7 +24,7 @@ function App() {
         </div>
         
         <button className="premium-btn">
-          <span>✨</span> Premium Upgrade
+          <span>✨</span> Unlock Premium
         </button>
       </header>
 

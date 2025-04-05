@@ -1,16 +1,17 @@
 .upload-panel, .results-panel {
   background: white;
   border-radius: 12px;
-  padding: 1.75rem;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+  padding: 2rem;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
   display: flex;
   flex-direction: column;
+  border: 1px solid var(--gray-200);
 }
 
 .panel-title {
-  font-size: 1.25rem;
+  font-size: 1.4rem;
   font-weight: 600;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1.75rem;
   color: var(--gray-800);
   display: flex;
   align-items: center;

@@ -1,6 +1,6 @@
 # Resumize - AI-Powered Resume & Cover Letter Optimizer
 
-![Resumize Logo](public/resumize-favicon.svg)
+![Resumize Logo](public/resumize-logo.svg)
 
 ## Overview
 
